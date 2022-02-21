@@ -37,12 +37,4 @@ class Konversi {
             return "Kondisi Air normal.";
         }
     }
-    
-    public void tampilData(){
-        System.out.println("Suhu dalam Celcius : "+this.celcius);
-        System.out.println("Dalam Fahrenheit : "+this.fahrenheit);
-        System.out.println("Dalam Reamur : "+this.reamur);
-        System.out.println("Dalam Kelvin : "+this.kelvin);
-        kondisiAir();
-    }
 }
